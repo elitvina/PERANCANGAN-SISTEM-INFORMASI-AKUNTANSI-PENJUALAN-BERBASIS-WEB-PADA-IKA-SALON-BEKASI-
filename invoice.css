@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: Courier New, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Background color */
+}
+.container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Box shadow for container */
+    border-radius: 8px; /* Rounded corners for container */
+}
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0; /* Padding top and bottom */
+    background-color: #343a40; /* Background color */
+    color: #fff; /* Text color */
+    border-top-left-radius: 8px; /* Rounded corners for top left */
+    border-top-right-radius: 8px; /* Rounded corners for top right */
+}
+.header img {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle; /* Align image vertically */
+}
+.header h2 {
+    margin: 10px 0;
+    font-size: 28px;
+    font-family: 'Comic Sans MS';
+}
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+}
+/* Content styles */
+.content {
+    margin-top: 20px;
+}
+.invoice-info {
+    background-color: #f2f2f2; /* Background color for invoice info */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Box shadow for invoice info */
+}
+.invoice-info h3 {
+    margin: 0;
+    color: #333; /* Text color */
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+table th {
+    background-color: #f8f9fa; /* Background color for table header */
+    color: #333; /* Text color */
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666; /* Text color */
+}
+
+.footer p {
+    margin: 5px 0;
+}
